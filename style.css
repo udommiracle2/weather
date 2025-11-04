@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:  "Poppins", sans-serif;
+}
+
+body{
+    background: rgb(26, 26, 73);
+    color: #ffff;
+}
+
+.head-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+}
+
+.logo{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.logo h5{
+    font-size: 18px;
+}
+
+.drop-down{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(44, 44, 239, 0.319);
+    padding: 7px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.drop-down p, fa-cog, fa-chevron-down{
+    font-size: 11px;
+    padding: 0 5px;
+}
+
+.write-up{
+    text-align: center;
+    margin: 30px;
+    font-size: 25px;
+}
+
+.search{
+    margin: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#searcher{
+    background: rgba(44, 44, 239, 0.319);
+    padding: 10px 210px 10px 10px;
+    border-radius: 9px;
+    border: none;
+}
+
+#searcher::placeholder{
+    color: #ffff;
+}
+
+.button{
+    background-color: rgb(93, 112, 232);
+    color: #ffff;
+    margin-left: 10px;
+    border-radius: 9px;
+    padding: 10px;
+    border: none;
+}
+
+.weather{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.weather-con{
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    background-image: url(./weather-app-main/assets/images/bg-today-large.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 1000px;
+}
+
+.weather-text{
+    padding: 50px;
+}
+
+.weather-con img{
+    height: 15vh;
+}
+
+.weather-text h5{
+    font-size: 20px;
+}
+
+.weather-con h2{
+    font-size: 120px;
+    font-style: italic;
+}
+
+.weather-text p{
+    font-size: 15px;
+}
+
+.container{
+    display: block;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box{
+    display: flex;
+    margin: 30px 0px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box-con{
+    padding: 16px;
+    background: rgba(44, 44, 239, 0.319);
+    border-radius: 6px;
+}
+
+.box-con p{
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.forecast{
+    display: flex;
+    margin: 30px 0;
+    justify-content: space-around;
+}
+
+.forecast-con{
+    text-align: center;
+    background: rgba(44, 44, 239, 0.319);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.forecast-con img{
+    height: 7vh;
+}
+
+.forecast-con .temp{
+    display: flex;
+    font-size: 13px;
+    justify-content: space-around;
+}
+
+.fore{
+    margin: 30px;
+    font-size: 18px;
+}
+
+.hourly{
+    margin: 30px 0px;
+    background-color: rgba(44, 44, 239, 0.319);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.hourly-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hourly-title h5{
+    padding-right: 24px;
+}
+
+.hourly-con{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(27, 27, 235, 0.853);
+    margin: 20px;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+.hourly-con .img-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hourly-con img{
+    height: 6vh;
+}
